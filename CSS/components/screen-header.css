@@ -1,0 +1,16 @@
+.screen-hearder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin: 20px 0px;
+}
+
+.screen-hearder__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.screen-hearder__icons span {
+  margin-left: 25px;
+}
