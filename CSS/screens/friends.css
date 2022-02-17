@@ -4,7 +4,7 @@
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   margin-top: -10px;
 }
 
@@ -16,13 +16,15 @@
   padding: 0px var(--horizontal-space);
 }
 
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__list {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
-.friends-screen__channel-hearder {
+.friends-screen__channel-hearder,
+.friends-screen__list-hearder {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
