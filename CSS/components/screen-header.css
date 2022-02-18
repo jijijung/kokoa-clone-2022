@@ -1,4 +1,4 @@
-.screen-hearder {
+.screen-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,11 +6,25 @@
   margin: 20px 0px;
 }
 
-.screen-hearder__title {
+.screen-header__title {
   font-size: 32px;
   font-weight: bold;
 }
 
-.screen-hearder__icons span {
+.screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons span .fa-cog {
+  position: relative;
+}
+
+.screen-header__cog-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
 }
