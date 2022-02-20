@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/엄마 - 짱구톡</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">엄마</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuseday, June 30, 2022</div>
+      <div class="message-row">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAzMzFfOTMg%2FMDAxNDkwOTMyNDYxNzM3._En7EA8QLPAnc88-ByoRrQs7og_wFHk-kLiNDFAPhRwg.ryxqJqIaFJcKvF0m9W1xx_r5R0C_LJ5aZrILmdWphmYg.JPEG.gleamhs0310%2Fb83593a8-7150-48d3-9179-789b7c0b0c0d.png.jpg&type=sc960_832"
+        />
+        <div class="message-row__content">
+          <span class="message__author">엄마</span>
+          <div class="message__info">
+            <span class="message__bubble">신짱구! 흰둥이 산책 시켰어?</span>
+            <span class="message__time">15:05</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">친구들이랑 놀고 있어요</span>
+            <span class="message__time">15:07</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/ddffea44ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
